@@ -1,0 +1,61 @@
+Actividad 5:
+
+1.- ¿Qué es una red? 
+Es el conjunto de conexiones que existe entre varios elementos.
+
+2.- ¿Qué es el modelo TCP/IP?
+Es un modelo usado en Telecomunicaciónes para definir la forma en la que funcionan los protocolos de red. 
+
+3.- ¿Qué es una IP?
+Es una dirección logica asignada a un dispositivo que permite identificarlo de forma unica en la red. 
+
+4.- ¿Qué es el protocolo TCP?
+Es el Transmission Control Protocol, el cual permite enviar datos asegurandose de que se reciban completamente y en el orden correcto. 
+
+5.- Dentro del protocolo TCP, ¿qué es el protocolo HTTP?
+Es el protocolo de hipertexto que permite la visualización correcta de texto al navegar en internet. 
+
+6.- Puerto del protocolo HTTP.
+Puerto 80.
+
+7.- Puerto del protocolo HTTPS.
+Puerto 443.
+
+8.- Diferencia entre HTTP y HTTPS.
+El protocolo HTTPS no es seguro, a diferencia del HTTPS que ofrece seguridad al momento de navegar pues su conexión esta cifrada. 
+
+9.- ¿Qué significa el Modelo cliente servidor?
+Es un modelo que permite generar una conexión entre quien hace la petición y quien la recibe. 
+
+10.- ¿Que es una petición (request)? 
+Es cuando se envia un paquete de datos solicitando un servicio para obtener una respuesta.
+
+11.- ¿Qué es una respuesta (response)?
+Es cuando se confirma que se recibio la solicitud y se otorga la respuesta. 
+
+12.- Secciones de una petición. 
+- POST
+- Token
+
+13.- Secciones de una respuesta. 
+
+- GET
+
+
+14.- El codigo de respuesta 404 y 500 a que se refiere. 
+El 404 se refiere a que el error no se ha encontrado.
+El 500 se refiere a que el servidor se ha caido.
+
+15.- Lenguajes de programación del lado del servidor (Back End).
+- Java
+- Python
+- C++
+- C#
+
+
+16.- Lenguajes de programación del lado del cliente (Front End).
+- JavaScript
+- PHP
+
+17.- ¿Qué es Burp Suite?
+Es una herramienta que permite identificar vulnerabilidades web.
