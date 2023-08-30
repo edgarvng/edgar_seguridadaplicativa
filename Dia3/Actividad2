@@ -1,0 +1,34 @@
+# Actividad 2
+# Calculadora
+
+def suma(num1, num2): return num1 + num2
+def resta(num1, num2): return num1 - num2
+def multi(num1, num2): return num1 * num2
+def divi(num1, num2): return num1 / num2
+
+print("""
+      Calculadora
+      1. Suma
+      2. Resta
+      3. Multiplicacion
+      4. Division
+      """)
+x = int(input("Dime un numero: "))
+print("Dime los numeros de la operacion.")
+num1 = int(input("Primer numero:"))
+num2 = int(input("Segundo numero:"))
+
+opcion = x
+if (x == 1):
+    print(suma(num1, num2))
+    
+elif (x == 2):
+    print(resta(num1,num2))
+    
+elif (x == 3):
+    print(multi(num1,num2))
+    
+elif (x == 4):
+    print(divi(num1, num2))
+    
+else: print("Selecciona un numero valido")
