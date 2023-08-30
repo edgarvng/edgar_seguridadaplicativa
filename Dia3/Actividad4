@@ -37,7 +37,7 @@ promax()
         
 def promin(): 
     for count in alumnos:
-        if (int(alumnos[count]) == 5):
+        if (int(alumnos[count]) <= 5):
             print("El alumno con menor promedio es:", str(count))
     pass
 
