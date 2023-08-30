@@ -5,8 +5,7 @@
 string = "Edgar"
 print(string[::-1])
 
-#Palindromo
-
+# Palindromo
 print("Usa solo minusculas.")
 x = input("Dime la palabra:")
 y = (x[::-1])
