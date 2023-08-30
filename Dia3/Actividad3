@@ -1,0 +1,19 @@
+# Actividad 3
+
+# Obtener el promedio.
+# La cantiad de aspirantes que reprobaron. 
+
+x = [8, 9, 10, 6, 6, 7, 8, 9, 5, 6, 7, 6, 8, 8, 9, 9, 5, 6, 7, 9, 10, 7, 8, 
+ 9, 9]
+
+def promedio(x): return sum(x) / len(x)
+def reprobaron(x):
+    count = 0 
+    for calificacion in x:
+        
+       if calificacion <= 5:
+            count  += 1
+    return count
+
+print("El promedio es: ", promedio(x))
+print("Los alumnos que reprobaron fueron: ", reprobaron(x))
